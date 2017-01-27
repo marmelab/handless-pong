@@ -1,6 +1,6 @@
 # handless-pong
 
-Pong clone developed for a hack [@marmelab](https://marmelab.com) using :
+Pong clone developed for a hack day [@marmelab](https://marmelab.com) using :
 - 2D Canvas for animations
 - Web Gazer
 

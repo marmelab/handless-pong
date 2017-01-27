@@ -30,16 +30,16 @@ export default class Game {
 
     const matches = /controller=(.*)$/.exec(window.location.href);
     let controller;
-    switch(matches[1]){
-        case 'keyboard':
-            controller = keyboardController;
-            break;
-        case 'mouse':
-            controller = mouseController;
-            break;
-        case 'eyetracker':
-            controller = eyetrackerController;
-            break;
+    switch (matches[1]) {
+      case 'keyboard':
+        controller = keyboardController;
+        break;
+      case 'mouse':
+        controller = mouseController;
+        break;
+      case 'eyetracker':
+        controller = eyetrackerController;
+        break;
     }
 
     this.player = new Player(this.bounds, controller);
