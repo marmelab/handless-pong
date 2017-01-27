@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>HandlessPong</title>
+        <link rel=stylesheet href='app.css'>
+    </head>
+    <body class="index">
+        <div id="start" class="well">
+            <h1>Handless Pong</h1>
+            <div class="list-group">
+                <a href="game.html?controller=keyboard" class="list-group-item">
+                    Play with keyboard !
+                </a>
+                <a href="game.html?controller=mouse" class="list-group-item">
+                    Play with mouse !
+                </a>
+                <a href="game.html?controller=eyetracker" class="list-group-item">
+                    No hands, no chocolate, but play pong anyway !
+                </a>
+            </div>
+        </div>
+        <script>
+            localStorage.clear();
+        </script>
+    </body>
+</html>

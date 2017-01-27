@@ -1,0 +1,24 @@
+{
+  "name": "handless-pong",
+  "version": "1.0.0",
+  "description": "No hands, no chocolate, but pong anyway !",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "babel-brunch": "^6.0.6",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2016": "^6.22.0",
+    "brunch": "^2.10.4",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "less-brunch": "^2.7.1"
+  },
+  "author": "marmelab",
+  "license": "MIT"
+}

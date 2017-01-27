@@ -1,0 +1,11 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+    },
+    "extends": "airbnb",
+    "rules": {
+        "no-param-reassign": ["error", { "props": false }],
+        "no-prototype-builtins:": ["off"]
+    }
+}
