@@ -2,6 +2,7 @@
   "name": "handless-pong",
   "version": "1.0.0",
   "description": "No hands, no chocolate, but pong anyway !",
+  "repository": "git@github.com:floo51/handless-pong.git",
   "dependencies": {
     "bootstrap": "^3.3.7"
   },

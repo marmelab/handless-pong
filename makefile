@@ -5,4 +5,4 @@ run:
 	./node_modules/.bin/brunch w -s
 
 build:
-	./node_modules/.bin/brunch b
+	./node_modules/.bin/brunch b --production
